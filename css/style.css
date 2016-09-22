@@ -1,0 +1,223 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: rgb(59,103,158);
+	height: 100vh;
+	background: -moz-linear-gradient(-45deg,  rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+	background: linear-gradient(135deg,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );
+	 background-attachment: fixed;
+}
+
+.card {
+	background-color: #FFF;
+}
+
+.contactDiv {
+	background-color: #FFF;
+	margin-top: -20px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.contactDiv h2 {
+	font: 400 100px/1.0 'Pacifico', Helvetica, sans-serif;
+	font-size: 36px;
+	color: #000;
+	padding:0px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+.cardHeader3{
+	background-color: #444;
+	margin-top: 10%;
+	min-height: 75px;
+	margin-bottom: 0px;
+	padding: 15px;
+	border-top-left-radius: 5px;
+
+}
+.cardHeader {
+	
+	background-color: #444;
+	margin-top: 10%;
+	min-height: 75px;
+	margin-bottom: 0px;
+	padding: 5px;
+	border-top-right-radius: 5px;
+
+}
+
+.cardHeader h1{
+	font: 400 100px/1.0 'Pacifico', Helvetica, sans-serif;
+	font-size: 36px;
+	color: #EEE;
+	padding:0px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-align: right;
+	margin-right: 10px;
+}
+
+.left {
+	background-color: #FFF;
+	border-right-style: solid;
+	border-right-color: #EEE;
+
+}
+
+.left h2{
+	
+	text-align: center;
+	font: 400 100px/1.0 'Pacifico', Helvetica, sans-serif;
+	font-size: 36px;
+	color: #000;
+	padding:0px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+.left h3{
+	
+	text-align: center;
+	font: 400 100px/1.0 'Pacifico', Helvetica, sans-serif;
+	font-size: 24px;
+	color: #000;
+	padding:0px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-decoration: overline;
+}
+
+.left h3.noline{
+	
+	text-align: center;
+	font: 400 100px/1.0 'Pacifico', Helvetica, sans-serif;
+	font-size: 24px;
+	color: #000;
+	padding:0px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-decoration: none;
+}
+
+.left h3.red{
+	
+	text-align: center;
+	font: 400 100px/1.0 'Pacifico', Helvetica, sans-serif;
+	font-size: 24px;
+	color: red;
+	padding:0px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-decoration: none;
+	margin-top: -10px;
+}
+
+.left img{
+	width: 70%;
+	margin-left: 17%
+}
+
+.left img.foto{
+	width: 70%;
+	vertical-align: center;
+	text-align: center;
+	align-content: center;
+	margin-top: 30px;
+	margin-left: 17%;
+}
+
+.right {
+	background-color: #FFF;
+	border-right-style: none;
+	border-right-color: #EEE;
+
+}
+
+.right h2{
+	margin-top: 20%;
+	text-align: center;
+	font: 400 100px/1.0 'Pacifico', Helvetica, sans-serif;
+	font-size: 52px;
+	color: #000;
+	padding:0px;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+.menuBottom {
+	border: none;
+	background-color: #444;
+	border-top-style: solid;
+	border-top-color: #EEE;
+	border-radius: 0px;
+}
+
+.menuBottomButton{
+	width: 100%;
+	height: 135px;
+	border: none;
+	background-color: #050;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.menuTop {
+	margin-bottom: 0;
+	display: none;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.form {
+	width: 400px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.submit {
+	margin-bottom: 15px;
+}
+
+
+.footer{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+@media (min-width: 992px)
+{
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	}
+}
+@media (max-width: 992px) {
+
+.left {
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+}
+.cardHeader3{
+margin-top: 0;
+vertical-align: right;
+align-content: right;
+text-align: right;
+border-radius: 0px;
+}
+.cardHeader{
+margin-top: 0;
+border-radius: 0px;
+}
+.menuBottom {
+
+}
+.menuTop {
+display: inherit;
+}
+
+.form {
+	width: 90%;
+}
+}
